@@ -10,7 +10,7 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background: linear-gradient(108deg, rgba(1, 147, 86, 1) 0%, rgba(10, 201, 122, 1) 100%);
+  background: linear-gradient(108deg, rgba(15, 9, 1, 0.96) 0%, rgba(15, 9, 1, 0.96) 100%);
 `
 
 export const FormWrap = styled.div`
@@ -58,7 +58,7 @@ export const Form = styled.form`
   margin: 0 auto;
   padding: 80px 32px;
   border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 1px 3px rgba(15, 9, 1, 0.96);
 
   @media screen and (max-width: 400px) {
     padding: 32px 32px;
@@ -83,7 +83,7 @@ export const FormInput = styled.input`
   border-radius: 4px;
 `
 export const FormButton = styled.button`
-  background: #01bf71;
+  background: #ea9d43;
   padding: 16px 0;
   border: none;
   border-radius: 4px;

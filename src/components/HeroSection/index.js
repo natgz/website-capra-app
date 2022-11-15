@@ -7,6 +7,7 @@ import {
   VideoBg,
   HeroContent,
   HeroH1,
+  HeroH2,
   HeroP,
   HeroBtnWrapper,
   ArrowForward,
@@ -26,7 +27,8 @@ function HeroSection() {
         <VideoBg autoPlay loop muted src={Video} type="video1/mov" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Unique coffee for unique people</HeroH1>
+        <HeroH1>CAPRA</HeroH1>
+        <HeroH2>WINE BARREL AGED COFFEE</HeroH2>
         <HeroP>Sign up to be part of the coffee community and make your mornings better and your nights longer.</HeroP>
         <HeroBtnWrapper>
           <Button
@@ -41,7 +43,7 @@ function HeroSection() {
             exact="true"
             offset={-80}
           >
-            Get started {hover ? <ArrowForward /> : <ArrowRight />}
+            Inicia {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

@@ -7,7 +7,7 @@ export const homeObjOne = {
   headline: "Conoce el mejor café de especialidad",
   description:
     "Descubre sobre nuestro café de especialidad que proporciona notas deliciosas debido a su único proceso de añejamiento.",
-  buttonLabel: "Get started",
+  buttonLabel: "Descubrir",
   // cambiar el posicionamiento de la info de las columnas
   imgStart: true,
   //  true o false
@@ -24,10 +24,9 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: "Premium Coffee",
-  headline: "Conoce el mejor café de especialidad",
-  description:
-    "Descubre sobre nuestro café de especialidad que proporciona notas deliciosas debido a su único proceso de añejamiento.",
-  buttonLabel: "Get started",
+  headline: "Descubre el sabor de nuestro delicioso café.",
+  description: "Dame la oportunidad de hacer tus mañanas más llevaderas y tus noches más extensas.",
+  buttonLabel: "Tienda",
   // cambiar el posicionamiento de la info de las columnas
   imgStart: false,
   //  true o false
@@ -44,10 +43,9 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: "Premium Coffee",
-  headline: "Conoce el mejor café de especialidad",
-  description:
-    "Descubre sobre nuestro café de especialidad que proporciona notas deliciosas debido a su único proceso de añejamiento.",
-  buttonLabel: "Get started",
+  headline: "Encuentra tiendas y distribuidores más cercanos a tú zona.",
+  description: "Busca los puntos de venta en la zona de tú conveniencia.",
+  buttonLabel: "Buscar",
   // cambiar el posicionamiento de la info de las columnas
   imgStart: false,
   //  true o false

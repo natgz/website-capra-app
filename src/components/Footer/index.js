@@ -45,26 +45,17 @@ const Footer = () => {
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Videos</FooterLinkTitle>
-              <FooterLink to="/">Sumbit Video</FooterLink>
-              <FooterLink to="/">Ambassadors</FooterLink>
-              <FooterLink to="/">Agency</FooterLink>
-              <FooterLink to="/">Influencer</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              {/* linkear las paginas */}
               <FooterLinkTitle>Social Media</FooterLinkTitle>
-              <FooterLink to="/">Instagram</FooterLink>
-              <FooterLink to="/">Facebook</FooterLink>
-              <FooterLink to="/">Youtube</FooterLink>
-              <FooterLink to="/">Twitter</FooterLink>
+              <FooterLink to="https://www.instagram.com/capracoffeemx/">Instagram</FooterLink>
+              <FooterLink to="https://www.facebook.com/capracoffeemx">Facebook</FooterLink>
+              <FooterLink to="https://www.linkedin.com/company/capracoffeemx/">LinkedIn</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
-              Capra
+              CAPRA
             </SocialLogo>
             <WebsiteRights>
               Copyright &copy;
@@ -74,13 +65,17 @@ const Footer = () => {
             </WebsiteRights>
             <SocialIcons>
               {/* poner los links */}
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+              <SocialIconLink href="https://www.facebook.com/capracoffeemx" target="_blank" aria-label="Facebook">
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+              <SocialIconLink href="https://www.instagram.com/capracoffeemx/" target="_blank" aria-label="Instagram">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+              <SocialIconLink
+                href="https://www.linkedin.com/company/capracoffeemx/"
+                target="_blank"
+                aria-label="Linkedin"
+              >
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>

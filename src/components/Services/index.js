@@ -1,7 +1,7 @@
 import React from "react"
-import Icon1 from "../../images/img1.jpeg"
-import Icon2 from "../../images/img2.jpeg"
-import Icon3 from "../../images/img3.jpeg"
+import Icon1 from "../../images/carajillo.jpg"
+import Icon2 from "../../images/capuccino.jpg"
+import Icon3 from "../../images/espresso tonic.jpg"
 import {
   ServicesContainer,
   ServicesH1,
@@ -15,22 +15,22 @@ import {
 const Services = () => {
   return (
     <ServicesContainer id="services">
-      <ServicesH1>Our Services</ServicesH1>
+      <ServicesH1>Blogs & Recetas</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce expenses</ServicesH2>
-          <ServicesP>We help Reduce your njkwncjbjkbcjk</ServicesP>
+          <ServicesH2>Carajillos</ServicesH2>
+          <ServicesP>Espresso y bebida alcoholica usualmente brandi. </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>virtual offices</ServicesH2>
-          <ServicesP>We help Reduce your njkwncjbjkbcjk</ServicesP>
+          <ServicesH2>Latte</ServicesH2>
+          <ServicesP>Expreso, vapor y espuma de leche a partes iguales.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>njkenwjkf</ServicesH2>
-          <ServicesP>We help Reduce your njkwncjbjkbcjk</ServicesP>
+          <ServicesH2>Espresso Tonic</ServicesH2>
+          <ServicesP>Deliciosa combinación de café y agua tónica.</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

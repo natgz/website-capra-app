@@ -38,8 +38,8 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-            <NavLogo to="/" onClick={toggleHome}>
-              Capra
+            <NavLogo class="logo" to="/" onClick={toggleHome}>
+              CAPRA
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -55,27 +55,27 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                   activeClass="active"
                 >
-                  About
+                  Sobre Nosotros
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to="discover" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
-                  Discover
+                  Tienda
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to="services" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
-                  Services
+                  Blogs & Recetas
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to="signup" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
-                  Sign up
+                  Ubicaciones
                 </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin">Sign In</NavBtnLink>
+              <NavBtnLink to="/signin">Iniciar sesión</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
