@@ -29,7 +29,7 @@ function HeroSection() {
       <HeroContent>
         <HeroH1>CAPRA</HeroH1>
         <HeroH2>WINE BARREL AGED COFFEE</HeroH2>
-        <HeroP>Sign up to be part of the coffee community and make your mornings better and your nights longer.</HeroP>
+        <HeroP>Start your day like the G.O.A.T.</HeroP>
         <HeroBtnWrapper>
           <Button
             to="signup"
