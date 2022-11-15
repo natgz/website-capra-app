@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import Video from "../../videos/video.mp4"
+import Video from "../../videos/video-pexel.mp4"
 import { Button } from "../ButtonElements"
 import {
   HeroContainer,
@@ -23,7 +23,7 @@ function HeroSection() {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBg autoPlay loop muted src={Video} type="video1/mov" />
       </HeroBg>
       <HeroContent>
         <HeroH1>Unique coffee for unique people</HeroH1>
